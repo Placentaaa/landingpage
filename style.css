@@ -1,0 +1,154 @@
+
+.container1,.container2 {
+ font-family: roboto;
+ background-color: #33023e;
+ color: #fbefff;
+ display: flex;
+ margin: -15px;
+}
+ 
+
+.container1 {
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ height: 125px;
+ flex: 0 1 0%;
+}
+
+.container2 { 
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ width: 100%;
+ height: 225px;
+ flex: 0 1 0%;
+}
+
+.logo {
+ font-size: 19px;
+ font-family: Arial;
+ margin-top: -25px;
+ margin-right: 135px;
+}
+
+nav {
+ font-family: Arial;
+ font-size: 16px;
+ color: #E5E7EB;
+ margin-top: -50px;
+}
+
+a { 
+ margin-left: 15px;
+}
+
+.intro {
+ font-size: 36px;
+ font-weight: 800;
+ margin-left: 323px;
+ width: 350px;
+ margin-top: -10px;
+}
+
+.subtext { 
+ font-size: 18px;
+ color: #E5E7EB;
+ width: 400px;
+ height: 65px;
+ margin-left: 323px;
+ margin-top: -30px;
+}
+ 
+
+.shop {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+ margin-top: -25px;
+}
+
+button {
+ background-color: #3882F6;
+ color: white;
+ border-radius: 10px;
+ margin-left: 335px;
+ margin-top: -45px;
+ margin-bottom: 45px;
+}
+
+.portrait {
+ height: 250px;
+ width: 250px;
+ border-radius: 125px;
+ margin-top: -35px;
+}
+
+.container3 img {
+ width: 160px;
+ height: auto;
+ border-radius: 10px;
+ background-color: #fbefff;
+}
+
+.container3 h2 {
+ background-color: #fbefff;
+ text-align: center;
+ font-size: 33px;
+ font-family: Arial;
+ color: #33023e;
+ padding: 35px;
+ margin: 0;
+}
+
+.photoContainer {
+ background-color: #fbefff;
+ display: flex;
+ justify-content: space-evenly;
+ align-content: center;
+ flex-wrap: wrap;
+ padding-bottom: 25px;
+}
+
+.photos {
+ width: 160px;
+ text-align: center;
+}
+
+figcaption {
+ color:#33023e
+}
+
+.quoteContainer {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ background-color: #E5E5E5;
+ color: #33023e;
+ height: auto;
+ padding: 25px;
+}
+
+.quote {
+ font-size: 22px;
+ font-style: italic;
+ width: 400px;
+}
+
+.author {
+ align-self: flex-end;
+ font-size: 10px;
+ font-style: bold;
+}
+
+.copyright {
+ display: flex;
+ justify-content: center;
+ background-color: #1F2937;
+ color: #ffffff;
+ font-size: 10px;
+}
